@@ -16,7 +16,7 @@
 
 ## 1. Statement of Purpose
 
-This Python-based AI project aims at utilizing Computer Vision Technologies for facial recognition and analyzing facial expressions. By identifying the current user mood, the system should leverages YouTube's search capabilities to recommend music that aligns with the emotions.
+This project is a responsive website to promote hackathons. The website features a clean and intuitive design with a focus on user experience. Key functionalities will include a responsive navigation bar, a section to showcase past and upcoming hackathons, an "About Us" section, and a contact form. To enhance the user experience, we will implement a 3D tilt effect using Vanilla TiltJs.
 
 ---
 
