@@ -1,4 +1,5 @@
-**Hackathon-Website**
+## Hackathon-Website
+Please give us a ⭐ and fork this repo to get started. Thank you 🙌🙌.
 
 **Project Overview**
 
