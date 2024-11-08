@@ -35,7 +35,7 @@ We prioritize the following values:
 
 ## 3. Expected Behavior
 
-As a participant in the CopilotKit community, you are expected to:
+As a participant in the community, you are expected to:
 
 - **Be Respectful and Inclusive**: Treat all individuals with respect and kindness, regardless of their background, identity, or experience level.
 - **Communicate Constructively**: Engage in discussions that are constructive, focusing on ideas and solutions rather than personal opinions.
@@ -111,6 +111,6 @@ This Code of Conduct draws inspiration from various open-source communities dedi
 
 ## 9. Get Involved
 
-We invite you to contribute!! Whether through code, documentation, or community engagement, your participation is invaluable. For more information on how to contribute, please check our [contribution guide](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/blob/main/CONTRIBUTING.md).
+We invite you to contribute!! Whether through code, documentation, or community engagement, your participation is invaluable. For more information on how to contribute, please check our [contribution guide](https://github.com/SGCODEX/Hackathon-Website/blob/main/CONTRIBUTING.md).
 
 Thank you for being part of the community! Together, we can build a safe, respectful, and innovative space for all.
