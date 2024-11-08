@@ -1,7 +1,7 @@
 ## Hackathon-Website
 Please give us a ⭐ and fork this repo to get started. Thank you 🙌🙌.
 
-**Project Overview**
+### Project Overview**
 
 This project is a responsive website to promote hackathons. The website features a clean and intuitive design with a focus on user experience. Key functionalities will include a responsive navigation bar, a section to showcase past and upcoming hackathons, an "About Us" section, and a contact form. To enhance the user experience, we will implement a 3D tilt effect using Vanilla TiltJs.
 
