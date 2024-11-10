@@ -82,8 +82,32 @@
 <div class="t3">"Winners dont do <br> different things, <br> they do things <br> differently"</div>
 
 
+<div class="card-container">
+    <div class="card" data-tilt>
+        <h2>Card 1</h2>
+        <p>Information about Card 1.</p>
+    </div>
+    <div class="card" data-tilt>
+        <h2>Card 2</h2>
+        <p>Information about Card 2.</p>
+    </div>
+    <div class="card" data-tilt>
+        <h2>Card 3</h2>
+        <p>Information about Card 3.</p>
+    </div>
+</div>
 
 
+
+<script src="Code/vanilla-tilt.min.js"></script>
+<script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 30,
+        speed: 400,
+    });
+
+
+</script>
 
 
 
