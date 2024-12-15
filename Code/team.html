@@ -6,7 +6,43 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .team-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 20px;
+            }
+            .team-member {
+                background-color: #ffffff;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                margin: 10px;
+                width: 250px;
+                text-align: center;
+                overflow: hidden;
+            }
+            .team-member img {
+                width: 100%;
+                height: auto;
+            }
+            .team-member h3 {
+                font-size: 1.2em;
+                color: #333;
+                margin: 10px 0 5px;
+            }
+            .team-member p {
+                font-size: 0.9em;
+                color: #666;
+                margin: 5px 10px 15px;
+            }
+        </style>
     </head>
     <body>
         
@@ -16,7 +52,7 @@
             <div class="menu-toggle"></div>
             <nav>
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
 
                     <li><a href="#">Hackathons</a>
                         <div class ="sub-menu-1">
@@ -35,12 +71,12 @@
                         </div>
                     </li>                   
 
-                    <li><a href="#">About Us</a>
+                    <li><a href="#" class="active" >About Us</a>
                         <div class ="sub-menu-1">
                             <ul>
                                 <li><a href="#">Mission</a></li>
                                 <li><a href="#">Vision</a></li>
-                                <li><a href="team.html">Team</a></li>
+                                <li><a href="#">Team</a></li>
                             </ul>
                         </div>
                     </li>                    
@@ -49,42 +85,32 @@
                 </ul>
             </nav>
             <div class="clearfix"></div>
+
+
         </header>
-        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('.menu-toggle').click(function(){
-                    $('.menu-toggle').toggleClass('active')
-                    $('nav').toggleClass('active')
-                })
-            })
-        </script>
-
-<section class="socialMedia">
-    <ul class="sci">
-        <li data-text="COLLEGE"><a href="#" class="college"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a></li>
-        <li data-text="HACKNACK"><a href="#" class="event"><i class="fa fa-desktop" aria-hidden="true"></i></i></a></li>
-
-
-    </ul></section>
-    <script src="vanilla-tilt.min.js"></script>
-    <script>
-        VanillaTilt.init(document.querySelectorAll(".sci li a"), {
-                max: 25,
-                speed: 400,
-                glare: true,
-                "max-glare": 1,
-            });
-    </script>
-
-<div class="t1">This Hackathon is brought to you by:</div>
-<div class="t2">Play with banners below for a 3d experience. huehue.</div>
-<div class="t3">"Winners dont do <br> different things, <br> they do things <br> differently"</div>
-
-
-
-
-
+        <h1 style="text-align: center; margin: 20px 0; color: #fff;">Meet Our Team</h1>
+    <div class="team-container">
+        <div class="team-member">
+            <img src="https://via.placeholder.com/250" alt="Team Member">
+            <h3>John Doe</h3>
+            <p>Web Developer</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/250" alt="Team Member">
+            <h3>Jane Smith</h3>
+            <p>UI/UX Designer</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/250" alt="Team Member">
+            <h3>Mark Lee</h3>
+            <p>Project Manager</p>
+        </div>
+        <div class="team-member">
+            <img src="https://via.placeholder.com/250" alt="Team Member">
+            <h3>Emily Davis</h3>
+            <p>Marketing Specialist</p>
+        </div>
+    </div>
 
 
 
