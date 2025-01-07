@@ -11,8 +11,9 @@
     <body>
         
         <header>
+            
             <img id="ImSticky" src="logoo.jpg" alt="logo_pic">
-            <a href="#" class="logo">Hacknack</a>
+            <a href="#" class="logo" id="first">Hacknack</a>
             <div class="menu-toggle"></div>
             <nav>
                 <ul>
@@ -67,7 +68,16 @@
 
 
     </ul></section>
-    <script src="vanilla-tilt.min.js"></script>
+    <div id="loading-spinner">
+        <div class="spinner"></div>
+      </div>
+      
+    <div class="tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.5" tabindex="0" aria-label="Interactive Tilt Element">
+    
+      </div>
+      
+      <script src="vanilla-tilt.min.js"></script>
+
     <script>
         VanillaTilt.init(document.querySelectorAll(".sci li a"), {
                 max: 25,
@@ -75,11 +85,52 @@
                 glare: true,
                 "max-glare": 1,
             });
+
+            if (window.innerWidth <= 768) {
+  document.querySelectorAll(".tilt").forEach((tiltElement) => {
+    tiltElement.vanillaTilt.destroy(); // Disable tilt on small screens
+  });
+}
+
+window.addEventListener("load", () => {
+  document.getElementById("loading-spinner").style.display = "none"; // Hide spinner when page is loaded
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    const isSmallScreen = window.innerWidth <= 480;
+    if (isSmallScreen) {
+      document.querySelectorAll(".tilt").forEach((tiltElement) => {
+        if (tiltElement.vanillaTilt) {
+          tiltElement.vanillaTilt.destroy(); // Disable tilt effect on very small screens
+        }
+      });
+    }
+  });
+
+  const logoElement = document.getElementById("first");
+
+  setInterval(() => {
+
+    if(logoElement.style.visiblity === "hidden") {
+        logoElement.style.visibility = "visible";
+    } else {
+        logoElement.style.visiblity = "hidden";
+    }
+  }, 1000);
+
+
+
+
+  
+
+
     </script>
 
 <div class="t1">This Hackathon is brought to you by:</div>
 <div class="t2">Play with banners below for a 3d experience. huehue.</div>
 <div class="t3">"Winners dont do <br> different things, <br> they do things <br> differently"</div>
+
+
 
 
 
