@@ -222,6 +222,7 @@ nav ul li:hover .sub-menu-1 ul li a:hover
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-top: 20vh;
     min-height: 40vh;
     transition: 0.5s;
 
@@ -311,7 +312,7 @@ nav ul li:hover .sub-menu-1 ul li a:hover
 
 .t1 {
     position: absolute;
-    bottom: 58%;
+    bottom: 52%;
     left: 16px;
 
     color: #fff;
@@ -324,7 +325,7 @@ nav ul li:hover .sub-menu-1 ul li a:hover
 
   .t2 {
     position: absolute;
-    bottom: 54%;
+    bottom: 48%;
     left: 16px;
 
     color: #fff;
